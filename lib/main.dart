@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:loader_overlay/loader_overlay.dart';
 import 'package:lottie/lottie.dart';
 import 'package:rive/rive.dart';
 
@@ -17,7 +18,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Animation in Flutter'),
+      home: LoaderOverlay(
+        useDefaultLoading: false,
+        overlayWidget: Lottie.asset('assets/lottiefiles/polar_bear_day.json'),
+        child: const MyHomePage(title: 'Animation in Flutter'),
+      ),
     );
   }
 }

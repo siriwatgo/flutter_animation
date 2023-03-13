@@ -23,3 +23,13 @@ Dependencies: https://pub.dev/packages/rive
 Rive Flutter is a runtime library for [Rive](https://rive.app), a real-time interactive design and animation tool.
 
 This library allows you to fully control Rive files with a high-level API for simple interactions and animations, as well as a low-level API for creating custom render loops for multiple artboards, animations, and state machines in a single canvas.
+
+
+
+## Loader Overlay
+
+<a href="https://www.buymeacoffee.com/rodrigobastosv" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+###  Introduction
+
+Have you ever found yourself in the situation of doing some async processing your screen and wanting to prevent the user from interacting with the screen while the application is loading? If so, this package was made just for you.

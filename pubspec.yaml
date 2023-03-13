@@ -40,6 +40,8 @@ dependencies:
   lottie: ^2.2.0
   # Doc: https://pub.dev/packages/rive
   rive: ^0.10.2
+  # Doc: https://pub.dev/packages/loader_overlay
+  loader_overlay: ^2.1.0
 
 dev_dependencies:
   flutter_test:
